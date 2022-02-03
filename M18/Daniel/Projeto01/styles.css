@@ -1,12 +1,86 @@
+/*Fonte do Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/*RESET DO CSS, porque margin e padding já vem com valores padrão, então precisa zerar antes de usar para não criar conflito*/
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0; /*distância externa*/
+    padding: 0; /*distância interna dos elementos*/
     box-sizing: border-box;
 }
 ul{
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+    color: inherit; /*serve para tirar a cor original dele (todo link é azul). Inherit significa herdar (ao colocarmos isso, ele perde sua cor original e herda a cor do "pai", no caso a tag que o contém)*/
+}
+/* Fim do Reset do CSS */
 .embrulho{
     width: 580px;
-    background-color: crimson;
+    margin: 0 auto;
 }
+body{
+    background-image: url(./img/background.jpg); /*dessa forma, coloca uma imagem atrás de todo o body*/
+    background-size: cover;
+    background-position: center;
+}
+/* Começo estilo do header */
+#cabecalho_main{
+    width: 100%;
+    height: 260px;
+    display: flex; /*Ajuda a manipular os elementos com mais liberdade*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#foto_perfil{
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /*Ajuda a não distorcer a imagem, mesmo mudando seu tamanho*/
+    border-radius: 50%;
+    margin-top: 15px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #8200BF;
+}
+/* Fim estilo do header */
+/* Começo estilo links */
+.link{
+    width: 100%;
+}
+/*Isso significa que você vai mexer no "a", mas só naqueles que estão dentro de uma tag com a classe "link"*/
+.link > a{
+    display: block; /*Serve para tirar o display padrão da palavra "link" (inline) para block, agora ela é tipo uma imagem*/
+    width: 100%;
+    background-color: #FF0099;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 0;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+/*Essa é uma pseudo classe (serve como uma condicional. Tipo: quando colocar o mouse em cima, ele muda de cor)*/
+.link > a:hover{
+    background-color: #fff;
+    color: #FF0099;
+}
+/* Fim estilo links */
+/* Começo estilo rodapé */
+#rodape_simbolos{
+    display: flex;
+    justify-content: center;
+}
+.simbolo{
+    font-size: 30px;
+    color: #f09;
+    margin: 0 10px;
+}
+/*Essa é uma pseudo classe (serve como uma condicional. Tipo: quando colocar o mouse em cima, ele muda de cor)*/
+.simbolo:hover{
+    opacity: 0.6;
+}
+/* Fim estilo rodapé */
