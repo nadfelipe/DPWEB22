@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik&display=swap');
+
+/* CSS Reset da margin, do padding e de como o navegador lida com os elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Formatação Geral da nossa página */
+/* embrulho/wrapper precisam de uma largura definida e precisam centralizar */
+.embrulho{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* Começo estilo cabeçalho do site com CSS */
+header{
+    background-color: #3C184E;
+    padding: 10px 0;
+}
+header > div{
+    display: flex;
+    color: #fff;
+}
+header > div > h3{
+    font-family: 'Rubik', sans-serif;
+    margin-left: 10px;
+}
+
+/* Começo estilo banner com CSS */
+#banner{
+    padding: 64px 0;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    color: #3C184E;
+}
+#banner > div > p{
+    font-family: 'Rubik', sans-serif;
+    color: #3C184E;
+    margin: 20px 0 40px;
+}
+#botao{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    background-color: #713FFF;
+    padding: 12px 32px;
+    border-radius: 40px;
+    display: block;
+    width: 150px;
+}
+
+/* Começo estilo Seção 1 com CSS */
+#secao1{
+    background-color: #713FFF;
+    color: #fff;
+    padding: 64px 0 0.1px;
+}
+.titulo_secao{
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    margin-bottom: 32px;
+}
+.artigo{
+    background-color: #3C184E;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 64px;
+}
+.artigo > h3{
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.artigo > p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+/* Começo estilo rodapé com CSS */
+footer{
+    text-align: center;
+    background-color: #3C184E;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    color: #fff;
+    padding: 5px 0;
+}
