@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Rubik&display=swap');
+
+/* CSS Reset geral e tag <a> */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Formatação geral com CSS */
+/* No embrulho/wrapper precisamos definir uma largura e centralizar */
+.embrulho{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* Estilo do Cabeçalho com CSS */
+header{
+    background-color: #3C184E;
+    padding: 10px 0;
+}
+header > div{
+    display: flex;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+header > div > h3{
+    margin-left: 5px;
+}
+
+
+/* Estilo Banner com CSS */
+#banner{
+    padding: 64px 0;
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    color: #3C184E;
+}
+#banner > div > p{
+    font-family: 'Rubik', sans-serif;
+    color: #3C184E;
+    margin: 20px 0 40px;
+}
+#botao{
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    background-color: #713FFF;
+    padding: 12px 32px;
+    display: block;
+    width: 150px;
+    border-radius: 40px;
+}
+
+/* Estilo Seção 1 com CSS */
+#secao1{
+    background-color: #713FFF;
+    padding: 64px 0 0.1px;
+}
+.titulo_secao{
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.artigo{
+    background-color: #3C184E;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 64px;
+}
+.artigo > h3{
+    font-family: 'Merriweather', serif;
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.artigo > p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Estilo Rodapé com CSS */
+footer{
+    text-align: center;
+    background-color: #3C184E;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+/* Estilo Seção 2 com CSS */
+#secao2{
+    padding: 64px 0 0.1px;
+}
+#secao2 .titulo_secao{
+    color: #3C184E;
+}

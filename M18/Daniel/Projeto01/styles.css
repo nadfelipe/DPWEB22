@@ -19,9 +19,14 @@ a{
     margin: 0 auto;
 }
 body{
-    background-image: url(./img/background.jpg); /*dessa forma, coloca uma imagem atrás de todo o body*/
+    background-image: 
+        linear-gradient(45deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+        url(./img/background.jpg); /*dessa forma, coloca uma imagem atrás de todo o body*/
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    /* min-height: 200vw; */
+    min-height: 100vh;
 }
 /* Começo estilo do header */
 #cabecalho_main{
