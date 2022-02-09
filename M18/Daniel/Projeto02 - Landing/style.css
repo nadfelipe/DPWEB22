@@ -11,7 +11,7 @@ a{
     color: inherit;
 }
 
-/* Emrbulho/Wrapper + Flexbox (Coisas reaproveitáveis) */
+/* Embrulho/Wrapper + Flexbox (Coisas reaproveitáveis) */
 .wrapper{
     width: 90%;
     max-width: 1440px;
@@ -22,16 +22,31 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #EA0F78;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+}
+.btn:hover{
+    opacity: 0.9;
+}
 
 /* Estilo Seção Inicial (Menu + Banner) */
 #secao-inicial{
-    background-color: blueviolet;
     padding: 32px 0;
     color: #fff;
+    background: linear-gradient(90deg, #D83482 0%, #EC0A76 100%);
 }
+/* Menu */
 #logo{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
+    font-weight: 700;
 }
 #links-secoes{
     font-family: 'Lexend Deca', sans-serif;
@@ -44,13 +59,77 @@ a{
     text-decoration: underline;
 }
 .btn_menu{
+    font-size: 16px;
+}
+/* Banner */
+#conteudo-inicial{
+    margin-top: 64px;
+}
+#conteudo-esq{
+    width: 40%;
+}
+#conteudo-esq > h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+}
+#conteudo-esq > p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 16px;
-    color: #EA0F78;
+    margin: 10px 0 32px;
+}
+/* DEPOIS ARRUMAR IMAGEM */
+
+/* Estilo Seção Artigos (Título + Artigos Principais + Artigos em destaque) */
+/* Geral da Seção */
+#secao-artigos{
+    background-color: aqua;
+    padding: 64px 0;
+}
+#secao-artigos > h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+}
+
+/* Artigos principais */
+#artigos-principais{
+    background-color: azure;
+    margin-top: 32px;
+}
+#artigos-principais > h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #313131;
+}
+#artigos-principais > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    margin: 10px 0 32px;
+}
+#cards{
+    background-color:blueviolet;
+    /* À FAZER: MEXER SÓ QUANDO TIVER MAIS DE UM CARD */
+}
+.card{
+    width: 310px;
     background-color: #fff;
-    padding: 10px 22px;
+    padding: 20px;
     border-radius: 5px;
 }
-.btn_menu:hover{
-    opacity: 0.9;
+.cabecalho_card{
+    margin-bottom: 20px;
+}
+.cabecalho_card > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #B6B6B6;
+}
+.cabecalho_card > i{
+    color: #EA2181;
+    font-size: 25px;
 }
