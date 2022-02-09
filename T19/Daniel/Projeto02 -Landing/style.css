@@ -22,13 +22,27 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    color: #EA0F78;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+}
+.btn:hover{
+    opacity: 0.9;
+}
 
-/* Começo estilo Seção Inicial */
+/* Começo estilo Seção Inicial (Menu + Banner)*/
 #secao-inicial{
-    background-color: blueviolet;
     padding: 32px 0;
     color: #fff;
+    background: linear-gradient(90deg, #D83482 0%, #EC0A76 100%);
 }
+/* Menu */
 #logo{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
@@ -44,14 +58,92 @@ a{
 #links-secoes > a:hover{
     text-decoration: underline;
 }
-.btn{
+.btn_menu{
+    font-size: 16px;
+}
+/* Banner */
+#conteudo-inicial{
+    margin-top: 64px;
+}
+#conteudo-esq{
+    width: 40%;
+}
+#conteudo-esq > h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 58px;
+}
+#conteudo-esq > p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 16px;
-    color: #EA0F78;
+    margin: 10px 0 32px;
+}
+/* DEPOIS ARRUMAR IMAGEM */
+
+/* Começo estilo Seção Artigos (Título + Artigos Principais + Artigos em destaque)*/
+/* Geral da seção */
+#secao-artigos{
+    background-color: aqua;
+    padding: 64px 0;
+}
+#secao-artigos > h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+    margin-bottom: 32px;
+}
+/* Artigos Principais */
+#artigos-principais{
+    background-color: aquamarine;
+}
+#artigos-principais > h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #313131;
+}
+#artigos-principais > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    line-height: 26px;
+    margin: 10px 0 32px;
+}
+#cards{
+    background-color: cadetblue;
+    /* À FAZER: MEXER QUANDO COLOCAR MAIS DE UM CARD NO HTML */
+}
+.card{
     background-color: #fff;
-    padding: 10px 22px;
+    width: 310px;
+    padding: 20px;
     border-radius: 5px;
 }
-.btn:hover{
-    opacity: 0.9;
+.cabecalho_card{
+    margin-bottom: 20px;
+}
+.cabecalho_card > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #B6B6B6;
+}
+.cabecalho_card > i{
+    font-size: 25px;
+    color: #EA2181;
+}
+.conteudo_card > h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #313131;
+    margin-bottom: 5px;
+}
+.conteudo_card > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    line-height: 26px;
 }
