@@ -84,7 +84,7 @@ a{
 /* Começo estilo Seção Artigos (Título + Artigos Principais + Artigos em destaque)*/
 /* Geral da seção */
 #secao-artigos{
-    background-color: aqua;
+    background-color: #F3F5F7;
     padding: 64px 0;
 }
 #secao-artigos > h2{
@@ -97,9 +97,9 @@ a{
 }
 /* Artigos Principais */
 #artigos-principais{
-    background-color: aquamarine;
+    width: 65%;
 }
-#artigos-principais > h3{
+#artigos-principais > h3, #artigos-destaque > h3{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 25px;
@@ -113,14 +113,15 @@ a{
     margin: 10px 0 32px;
 }
 #cards{
-    background-color: cadetblue;
-    /* À FAZER: MEXER QUANDO COLOCAR MAIS DE UM CARD NO HTML */
+    flex-wrap: wrap;
 }
 .card{
     background-color: #fff;
-    width: 310px;
+    width: 48%;
+    min-width: 310px;
     padding: 20px;
     border-radius: 5px;
+    margin-bottom: 32px;
 }
 .cabecalho_card{
     margin-bottom: 20px;
@@ -134,16 +135,62 @@ a{
     font-size: 25px;
     color: #EA2181;
 }
-.conteudo_card > h4{
+.conteudo_card > h4, .card_destaque > h4{
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    color: #313131;
+    color: #EA2181;
     margin-bottom: 5px;
 }
-.conteudo_card > p{
+.conteudo_card > p, #textos-final > p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 18px;
     color: #B6B6B6;
     line-height: 26px;
+}
+
+/* Artigos em destaque */
+#artigos-destaque{
+    width: 33%;
+}
+#cards-destaque{
+    margin-top: 20px;
+}
+.card_destaque{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+#secao-artigos > div{
+    align-items: flex-start;
+}
+
+/* Hover do coração pra ficar preenchido */
+.cabecalho_card > i:hover::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Começo estilo Seção Final e Rodapé*/
+/* Seção final */
+#secao-final{
+    background-color: #ECEEF0;
+    padding: 64px 0;
+}
+#textos-final{
+    width: 40%;
+}
+#textos-final > h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+}
+.btn_secundario{
+    background-color: #EA2181;
+    color: #fff;
+    margin: 32px auto 0;
 }
