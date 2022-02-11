@@ -33,7 +33,7 @@ a{
     width: fit-content;
 }
 .btn:hover{
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 /* Estilo Seção Inicial (Menu + Banner) */
@@ -78,7 +78,11 @@ a{
     font-size: 16px;
     margin: 10px 0 32px;
 }
-/* DEPOIS ARRUMAR IMAGEM */
+#imagem-1{
+    max-width: 569px;
+    width: 45%;
+    min-width: 440px;
+}
 
 /* Estilo Seção Artigos (Título + Artigos Principais + Artigos em destaque) */
 /* Geral da Seção */
@@ -86,7 +90,7 @@ a{
     background-color: #F3F5F7;
     padding: 64px 0;
 }
-#secao-artigos > h2{
+#secao-artigos > h2, #conteudo-final-textos > h2{
     text-align: center;
     font-family: 'Nunito', sans-serif;
     font-weight: 800;
@@ -141,7 +145,7 @@ a{
     color: #EA2181;
     margin-bottom: 5px;
 }
-.conteudo_card > p{
+.conteudo_card > p, #conteudo-final-textos > p{
     font-family: 'Lexend Deca', sans-serif;
     font-size: 18px;
     color: #B6B6B6;
@@ -171,4 +175,125 @@ a{
     content: "\f004";
     font-weight: 600;
     cursor: pointer;
+}
+
+/*  Estilo Seção Artigos + Rodapé */
+/* Seção Final */
+#secao-final{
+    background-color: #ECEEF0;
+    padding: 64px 0;
+}
+#conteudo-final-textos{
+    width: 45%;
+}
+#conteudo-final-textos > h2{
+    text-align: left;
+}
+.btn_final{
+    background-color: #EA2181;
+    color: #fff;
+    margin: 32px auto 0;
+}
+#imagem-2{
+    max-width: 552px;
+    width: 40%;
+    min-width: 430px;
+}
+/* Rodapé */
+footer{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #EA2181;
+    background-color: #fff;
+}
+
+
+/* Começo estilos Responsividade */
+/* 1° width - 1100px (h1, botão, cards, p e h2)*/
+@media screen and (max-width: 1100px) {
+    #conteudo-esq > h1{
+        font-size: 48px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+    .card{
+        width: 100%;
+    }
+    #conteudo-final-textos > p{
+        font-size: 16px;
+    }
+    #conteudo-final-textos > h2{
+        font-size: 25px;
+    }
+}
+/* 2° width - 920px (h1, botão, h2, h3, h4 e p)*/
+@media screen and (max-width: 920px){
+    #conteudo-esq > h1{
+        font-size: 40px;
+    }
+    .btn, .btn_menu{
+        font-size: 16px;
+    }
+    #secao-artigos > h2{
+        font-size: 25px;
+    }
+    #artigos-principais > h3, #artigos-destaque > h3{
+        font-size: 20px;
+    }
+    .conteudo_card > p{
+        font-size: 16px;
+    }
+    .conteudo_card > h4, .card_destaque > h4{
+        font-size: 18px;
+    }
+}
+/* 3° width - 820px */
+@media screen and (max-width: 820px){
+    /* Banner */
+    #imagem-1{
+        display: none;
+    }
+    #conteudo-esq{
+        width: 65%;
+        text-align: center;
+    }
+    #conteudo-inicial > div{
+        justify-content: center;
+    }
+    #conteudo-esq > .btn{
+        margin: auto;
+    }
+    #conteudo-esq > h1{
+        font-size: 48px;
+    }
+    
+    /* Artigos */
+    #secao-artigos > div{
+        flex-direction: column-reverse;
+    }
+    #artigos-principais, #artigos-destaque{
+        width: 100%;
+    }
+    #artigos-destaque{
+        margin-bottom: 64px;
+    }
+
+    /* Seção Final */
+    #conteudo-final{
+        flex-direction: column;
+    }
+    #conteudo-final-textos{
+        width: 80%;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    #conteudo-final-textos > h2{
+        text-align: inherit;
+        margin-bottom: 16px;
+    }
+    #imagem-2{
+        min-width: 350px;
+    }
 }
