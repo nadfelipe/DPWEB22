@@ -308,3 +308,23 @@ footer{
         min-width: 200px;
     }
 }
+
+/* 4° Breakpoint - width: 600px */
+@media screen and (max-width: 600px){
+    #links-secoes{
+        display: none;
+    }
+    #conteudo-esq > p{
+        display: none;
+    }
+    #conteudo-esq > h1{
+        font-size: 38px;
+        margin-bottom: 32px;
+    }
+    #conteudo-esq{
+        width: 100%;
+    }
+    .card_destaque{
+        width: 100%;
+    }
+}

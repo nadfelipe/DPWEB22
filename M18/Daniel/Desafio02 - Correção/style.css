@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* @font-face {
+    font-family: Belladio;
+    src: url(./Belladio_PERSONAL_USE_ONLY.otf);
+} */
+/* h3{
+    font-family: Belladio, serif, 'Times New Roman';
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3, h2, p, a{
+    font-family: 'Lexend Deca', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper{
+    width: 60%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cabecalho{
+    background: linear-gradient(90deg, #DB49C4 0%, #BC3EDB 100%);
+    padding: 32px 0;
+    color: #fff;
+}
+.links_menu > a{
+    padding: 12px 15px;
+}
+.links_menu > a:hover{
+    opacity: 0.5;
+}
+.link_ativo{
+    text-decoration: underline;
+}
+
+main{
+    background-color: #f3f5f7;
+    padding: 64px 0;
+    min-height: 90vh;
+}
+.post{
+    background-color: #fff;
+    padding: 25px;
+}
+.conteudo_post > h2{
+    margin: 16px 0 5px;
+}
+.cabecalho_post > p, .conteudo_post > p{
+    color: #b6b6b6;
+    font-weight: 400;
+}
+.cabecalho_post > i{
+    color: #BC3FDB;
+    font-size: 25px;
+}
+.cabecalho_post > i:hover::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 900;
+    cursor: pointer;
+}
+.conteudo_post > h2{
+    color: #313131;
+    font-weight: 400;
+    font-size: 26px;
+}

@@ -279,6 +279,9 @@ footer{
     #artigos-destaque{
         margin-bottom: 64px;
     }
+    .card{
+        min-width: 100%;
+    }
 
     /* Seção Final */
     #conteudo-final{
@@ -294,6 +297,24 @@ footer{
         margin-bottom: 16px;
     }
     #imagem-2{
-        min-width: 350px;
+        width: 60%;
+        min-width: 200px;
+    }
+}
+
+/* 4° width - 600px */
+@media screen and (max-width: 600px){
+    #links-secoes{
+        display: none;
+    }
+    #conteudo-esq > h1{
+        font-size: 38px;
+        margin-bottom: 32px;
+    }
+    #conteudo-esq > p{
+        display: none;
+    }
+    #conteudo-esq{
+        width: 100%;
     }
 }
