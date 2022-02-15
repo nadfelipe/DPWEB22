@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio 02 - Projeto Blog</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <!-- Estilização Global do CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Estilização Específica do CSS -->
+    <link rel="stylesheet" href="./css/home.css">
+
+    <!-- Script do Font Awesome -->
     <script src="https://kit.fontawesome.com/81967479e0.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -14,8 +19,8 @@
         <nav class="wrapper flex">
             <h3>Blog</h3>
             <div class="links_menu">
-                <a href="#" class="link_ativo">blog</a>
-                <a href="#">contato</a>
+                <a href="./index.html" class="link_ativo">blog</a>
+                <a href="./pages/contato.html">contato</a>
             </div>
         </nav>
     </header>
@@ -41,8 +46,36 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique earum consectetur vitae illo eos a id corrupti eligendi tempora architecto! Doloribus fugit rem iure voluptate atque repellendus at quia autem.</p>
                 </div>
             </article>
+            <article class="post">
+                <header class="cabecalho_post flex">
+                    <p>14 de fev, 2022</p>
+                    <i class="fa-regular fa-heart"></i>
+                </header>
+                <div class="conteudo_post">
+                    <h2>Título post 3</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique earum consectetur vitae illo eos a id corrupti eligendi tempora architecto! Doloribus fugit rem iure voluptate atque repellendus at quia autem.</p>
+                </div>
+            </article>
+            <div class="post_img">
+                <!-- Imagem que vai ser posta pelo background no CSS -->
+                <div class="img"></div>
+                
+                <!-- Artigo -->
+                <article class="post artigo_img">
+                    <header class="cabecalho_post flex">
+                        <p>14 de fev, 2022</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </header>
+                    <div class="conteudo_post">
+                        <h2>Título post imagem 1</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique earum consectetur vitae illo eos a id corrupti eligendi tempora architecto! Doloribus fugit rem iure voluptate atque repellendus at quia autem.</p>
+                    </div>
+                </article>
+            </div>
         </div>
     </main>
-    
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

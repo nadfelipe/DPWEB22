@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 02 - Projeto Blog</title>
+
+    <!-- Estilização Global do CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Estilização Específica do CSS -->
+    <link rel="stylesheet" href="../css/contato.css">
+
+    <!-- Script do Font Awesome -->
+    <script src="https://kit.fontawesome.com/81967479e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="cabecalho">
+        <nav class="wrapper flex">
+            <h3>Blog</h3>
+            <div class="links_menu">
+                <a href="../index.html">blog</a>
+                <a href="./contato.html" class="link_ativo">contato</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="secao_contato" class="wrapper">
+            <div class="textos_contato">
+                <h2>Entre em contato!</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, totam animi earum accusantium id tempora maxime voluptatibus iusto dolorem minus, tenetur mollitia perspiciatis quidem suscipit? Natus iusto excepturi veritatis quas.</p>
+            </div>
+            <form id="form_contato">
+               <div class="inputs_form">
+                   <div class="input_text">
+                       <label for="nome_usuario">Nome</label>
+                       <input type="text" id="nome_usuario" placeholder="Digite o seu nome">
+                   </div>
+                   <div class="input_text">
+                       <label for="email_usuario">E-mail</label>
+                       <input type="email" id="email_usuario" placeholder="Digite o seu e-mail">
+                   </div>
+                   <div class="input_text input_textarea">
+                        <label for="mensagem_usuario">Mensagem</label>
+                        <textarea id="mensagem_usuario" placeholder="Digite aqui sua mensagem"></textarea>
+                   </div>
+               </div> 
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
