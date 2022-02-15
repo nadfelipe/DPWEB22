@@ -1,0 +1,10 @@
+/* Estilização específica do contato.html */
+.textos_contato > h2{
+    color: #313131;
+    margin-bottom: 32px;
+    font-size: 26px;
+}
+.textos_contato > p{
+    color: #b6b6b6;
+    font-size: 18px;
+}

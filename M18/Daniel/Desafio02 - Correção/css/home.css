@@ -1,0 +1,48 @@
+/* Estilos específicos da página inicial */
+.post {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 64px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(19, 19, 31, 0.05);
+}
+
+.conteudo_post>h2 {
+    margin: 16px 0 5px;
+    color: #313131;
+    font-size: 26px;
+}
+
+.cabecalho_post>p, .conteudo_post>p {
+    color: #b6b6b6;
+}
+
+.cabecalho_post>i {
+    color: #BC3FDB;
+    font-size: 25px;
+}
+
+.cabecalho_post>i:hover::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 250px;
+    background-color: aquamarine;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 -8px 10px rgba(19, 19, 31, 0.05);
+    background:
+        linear-gradient(90deg, rgba(219, 73, 196, 0.3) 0%, rgba(188, 62, 219, 0.3) 100%),
+        url(../img/imagem-tucano.jpg);
+    background-size: cover;
+    background-position: 0 20%;
+}
+
+.artigo_img {
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 8px 10px rgba(19, 19, 31, 0.05);
+}
