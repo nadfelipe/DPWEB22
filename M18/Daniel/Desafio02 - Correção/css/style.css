@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-h3, h2, p, a {
+h3, h2, p, a, label,
+input::placeholder, textarea::placeholder,
+input, textarea, button {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
 }
