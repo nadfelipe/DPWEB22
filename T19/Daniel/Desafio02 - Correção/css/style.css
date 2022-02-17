@@ -18,7 +18,7 @@ a {
     color: inherit;
 }
 
-h3, a, h2, p {
+h3, a, h2, p, label, input, textarea, button {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
 }

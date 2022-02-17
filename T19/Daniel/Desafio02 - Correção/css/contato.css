@@ -1,9 +1,89 @@
-.textos_contato > h2{
+.textos_contato>h2 {
     color: #313131;
     font-size: 26px;
     margin-bottom: 16px;
 }
-.textos_contato > p{
+
+.textos_contato>p {
     color: #b6b6b6;
     font-size: 18px;
+}
+
+#form_contato {
+    margin-top: 64px;
+}
+
+.inputs_form {
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.input_text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 32px;
+}
+
+.input_textarea {
+    width: 100%;
+}
+
+.input_text>label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #BC3FDB;
+}
+
+.input_text>input, .input_text>textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: #BC3FDB; */
+    border: 2px solid #BC3FDB;
+    background-color: #f3f5f7;
+    color: #852D9B;
+}
+
+.input_text>input::placeholder, .input_text>textarea::placeholder {
+    color: #D79AE9;
+}
+
+.input_text>input:focus, .input_text>textarea:focus {
+    outline: none;
+    border-color: #852D9B;
+}
+
+.input_textarea>textarea {
+    resize: none;
+    height: 150px;
+}
+
+#btn_enviar {
+    font-size: 18px;
+    padding: 22px 42px;
+    background: linear-gradient(90deg, #DB49C4 0%, #BC3EDB 100%);
+    border-radius: 5px;
+    border: none;
+    color: #f3f5f7;
+    /* display: block;
+    margin: auto; */
+}
+
+#btn_enviar:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+    .input_text{
+        width: 100%;
+    }
+    #btn_enviar{
+        width: 100%;
+    }
 }

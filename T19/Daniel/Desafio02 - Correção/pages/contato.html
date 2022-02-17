@@ -31,7 +31,7 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, totam animi earum accusantium id tempora maxime voluptatibus iusto dolorem minus, tenetur mollitia perspiciatis quidem suscipit? Natus iusto excepturi veritatis quas.</p>
             </div>
             <form id="form_contato">
-               <div class="inputs_form">
+               <div class="inputs_form flex">
                    <div class="input_text">
                        <label for="nome_usuario">Nome</label>
                        <input type="text" id="nome_usuario" placeholder="Digite o seu nome">
@@ -42,9 +42,10 @@
                    </div>
                    <div class="input_text input_textarea">
                         <label for="mensagem_usuario">Mensagem</label>
-                        <textarea id="mensagem_usuario" placeholder="Digite aqui sua mensagem"></textarea>
+                        <textarea id="mensagem_usuario" placeholder="Digite aqui sua mensagem" maxlength="280"></textarea>
                    </div>
-               </div> 
+               </div>
+               <button type="button" id="btn_enviar">Enviar mensagem!</button>
             </form>
         </section>
     </main>
