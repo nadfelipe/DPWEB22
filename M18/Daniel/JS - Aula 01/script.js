@@ -25,6 +25,19 @@ function soltarParagrafo(){
     document.getElementById("paragrafo").innerHTML = "Você soltou o clique do mouse"
 }
 
+function mudarCorDiv(){
+    //1° acessa o document (DOM)
+    //2° falar como vai selecionar o elemento getElementById + falar o Id do elemento
+    //3° o que vai ser alterado no elemento, nesse caso o estilo
+    //4° falar qual propriedade quer mudar
+    //5° falar qual o valor da propriedade
+    document.getElementById("quadrado").style.backgroundColor = "#ff0000"  
+}
+
+function mudarCorQuadrado(){
+    document.getElementById("quadrado").style.backgroundColor = "#00ff00"
+}
+
 // <!-- Comentário no HTML -->
 // /* Comentário no CSS */
 // Comentário no JS
