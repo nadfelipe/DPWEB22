@@ -38,6 +38,17 @@ function mudarCorQuadrado(){
     document.getElementById("quadrado").style.backgroundColor = "#00ff00"
 }
 
+function acenderLampada(){
+    //1° acessa o document (DOM)
+    //2° falar como vai selecionar o elemento getElementById + falar o Id do elemento
+    //3° o que vai ser alterado no elemento, no caso as classes
+    document.getElementById("quadrado").classList.replace("apagada", "acesa")
+}
+
+function apagarLampada(){
+    document.getElementById("quadrado").classList.replace("acesa", "apagada")
+}
+
 // <!-- Comentário no HTML -->
 // /* Comentário no CSS */
 // Comentário no JS

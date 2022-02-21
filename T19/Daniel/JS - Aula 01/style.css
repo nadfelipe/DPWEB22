@@ -1,0 +1,16 @@
+#quadrado {
+    width: 150px;
+    height: 150px;
+}
+
+.apagada {
+    background-color: #424242;
+}
+
+.acesa {
+    background-color: #ffff00;
+}
+
+.noturna {
+    background-color: #944700;
+}
