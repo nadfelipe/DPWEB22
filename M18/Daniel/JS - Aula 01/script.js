@@ -49,6 +49,11 @@ function apagarLampada(){
     document.getElementById("quadrado").classList.replace("acesa", "apagada")
 }
 
+// function noturnaLampada() {
+//     document.getElementById("quadrado").removeAttribute("class")
+//     document.getElementById("quadrado").classList.add("noturna")
+// }
+
 // <!-- Comentário no HTML -->
 // /* Comentário no CSS */
 // Comentário no JS
