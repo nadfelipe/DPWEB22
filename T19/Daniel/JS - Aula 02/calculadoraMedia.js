@@ -1,6 +1,4 @@
 function calcularMedia() {
-
-
     var numeroUm = parseFloat(prompt("Digite o primeiro número:"))
     var numeroDois = parseFloat(prompt("Digite o segundo número:"))
     
@@ -15,5 +13,9 @@ function calcularMedia() {
     console.log("o tipo da variável no número 2 é: " + typeof(numeroDois))
     console.log("o tipo da variável no resultado é: " + typeof(resultadoMedia))
 
+    document.getElementById("titulo_resultado_media").style.display = "block"
+    document.getElementById("resultado_media").innerHTML = resultadoMedia
 
+    // document.getElementById("resultado_media").innerHTML = "O resultado é: " + resultadoMedia
+    // document.getElementById("resultado_media").innerHTML = `O resultado é: ${resultadoMedia}`
 }
