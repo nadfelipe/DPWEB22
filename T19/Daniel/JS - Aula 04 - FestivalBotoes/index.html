@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de botões</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="secao_paragrafos">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium esse consequatur eius incidunt doloribus ab similique cum ipsam reiciendis, nostrum modi. Ipsam exercitationem commodi, doloremque iste nulla totam error amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate delectus modi voluptates harum nemo aliquam asperiores, alias enim qui sit voluptatem tempore temporibus, suscipit possimus labore, consequatur beatae laboriosam? Vero.</p>
+
+        <p class="paragrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit distinctio non eius ullam natus dolorem cupiditate magnam iusto eaque dolorum assumenda, quae a, nostrum ut laudantium laboriosam dicta commodi! Error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusamus necessitatibus adipisci! Exercitationem voluptates laudantium atque, aperiam ab adipisci ex voluptatibus architecto, repellat, repudiandae commodi nostrum laboriosam mollitia illum blanditiis?</p>
+    </div>
+    <br>
+    <hr>
+    <!-- h2.texto*3 -->
+    <h2 class="texto">Primeiro h2</h2>
+    <h2 class="texto">Segundo h2</h2>
+    <h2 class="texto">Terceiro h2</h2>
+    <p class="texto">Paragrafo com a classe texto</p>
+
+    <h3 class="paragrafo">h3 com a classe paragrafo</h3>
+
+    <div id="botoes">
+        <!-- Botão 1 - Recarregar a nossa página, nossa janela do navegador -->
+        <!-- Quando clicar no botão ele recarrega a nossa janela -->
+        <button onclick="window.location.reload()">Atualizar Página</button>
+
+        <!-- Botão 2 - Muda o tamanho da fonte dos parágrafos que estão na seção paragrafos -->
+        <!-- Quando clicar no botão, o tamanho da fonte da secao_paragrafos vai mudar -->
+        <button onclick="mudarTamanhoFonte()">Mudar tamanho fonte</button>
+
+        <!-- Botão 3 - Altera a cor da fonte dos parágrafos que estão na seção paragrafos  -->
+        <!-- Quando clicar no botão, a cor da fonte da secao_paragrafos vai mudar -->
+        <button onclick="mudarCorFonte()">Mudar cor da fonte</button>
+
+        <!-- Botão 4 - Altera a cor do fundo da div secao_paragrafos -->
+        <!-- Quando clicar no botão, o fundo da div muda de cor -->
+        <button onclick="mudarCorFundo()">Mudar a cor do fundo</button>
+
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
