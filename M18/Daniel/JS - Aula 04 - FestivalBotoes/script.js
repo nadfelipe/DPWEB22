@@ -64,7 +64,14 @@ function mudarCorFundoParagrafo() {
 
 // Botão 13 - Muda a cor do fundo um único botão
 function mudarCorFundoBotao() {
-    document.getElementsByTagName("button")[2].style.backgroundColor = "lightblue";
+    let indiceBotoes = document.getElementsByTagName("button").length - 1;
+
+    // Math.round(Math.random() * (maximo - minimo) + minimo)
+    let numeroAleatorio = Math.round(Math.random() * (indiceBotoes - 0) + 0);
+
+    document.getElementsByTagName("button")[numeroAleatorio].style.backgroundColor = "lightblue";
+
+    document.getElementsByTagName("h2")[2].innerHTML = numeroAleatorio;
 }
 
 // Botão 14 - Muda a cor de todos os botões
@@ -72,11 +79,54 @@ function mudarCorFundoBotoes() {
     // repetir (contador = 0; contador < qntBtn; contador++){
     //    botao[contador].style.backgroundColor = "verde";
     //}
-        let botoes = document.getElementsByTagName("button");
+    let botoes = document.getElementsByTagName("button");
         
     //"contador++" é igual a "contador = contador + 1"
     for (let contador = 0; contador < botoes.length; contador++){
         botoes[contador].style.backgroundColor = "lightgreen";
     }
+}
 
+// Botão 15 - Pega a quantidade de botões e coloca o número dentro do conteúdo interno do primeiro h2
+function contarBotoes() {
+    let quantidadeBotoes =  document.getElementsByTagName("button").length;
+
+    document.getElementsByTagName("h2")[0].innerHTML = `O número de botões no site é: ${quantidadeBotoes}`;
+}
+
+// Botão 16 - Muda o conteúdo interno do primeiro elemento com a classe "paragrafo"
+function alterarTextoParagrafo(entradaTexto) {
+    document.querySelector(".paragrafo").innerHTML = entradaTexto;
+}
+
+// Botão 17 - Muda a cor do fundo da página inteira
+function mudarCorPagina() {
+    document.querySelector("body").style.backgroundColor = "#ffff00";
+}
+
+// Botão 18 - Troca a imagem do laptop da xuxa pela imagem do outro pc
+function mudarImagem() {
+    let imagem = document.querySelector("img");
+    imagem.src = "./img/alien.jpg";
+    imagem.alt = "Imagem de um notebook gamer";
+}
+
+// Botão 19 - Aciona (quase) todas as funções
+function acionarTudo() {
+    // Não vai colocar funções 8, 9, 10, 13*
+
+    mudarTamanhoFonte(); // Função botão 2
+    mudarCorFonte(); // Função botão 3
+    mudarCorFundo(); // Função botão 4
+    mudarFonteItalico(); // Função botão 5
+    mudarFonteNegrito(); // Função botão 6
+    adicionarBorda(); // Função botão 7
+    mudarSegundoTitulo(); // Função botão 11
+    mudarCorFundoParagrafo(); // Função botão 12
+    mudarCorFundoBotoes(); // Função botão 14
+    mudarCorFundoBotao(); // Função botão 13
+    contarBotoes(); // Função botão 15
+    alterarTextoParagrafo("FRASE QUE VEIO DA FUNÇÃO DE ACIONAR (QUASE) TUDO"); // Função botão 16
+    mudarCorPagina(); // Função botão 17
+    mudarImagem(); // Função botão 18
 }
