@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de média</title>
+</head>
+<body>
+    <h1>Calculadora de média dos alunos</h1>
+    <form>
+        <div class="input_nota">
+            <label for="nota1">Digite a nota 1:</label>
+            <input id="nota1" type="number">
+        </div>
+
+        <div class="input_nota">
+            <label for="nota2">Digite a nota 2:</label>
+            <input id="nota2" type="number">
+        </div>
+
+        <div class="input_nota">
+            <label for="nota3">Digite a nota 3:</label>
+            <input id="nota3" type="number">
+        </div>
+
+        <button type="button" onclick="calcularMedia()">Calcular média</button>
+    </form>
+
+    <h3 id="retorno_funcao"></h3>
+
+    <h2 id="resultado_media"></h2>
+    <h2 id="situacao_aluno"></h2>
+
+    <script src="./script.js"></script>
+</body>
+</html>
