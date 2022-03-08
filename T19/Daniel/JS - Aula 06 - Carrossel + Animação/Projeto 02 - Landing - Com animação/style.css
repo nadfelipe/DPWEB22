@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Classe reutilizaveis (Wrapper/Embrulho + Flex) */
+.wrapper{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    color: #EA0F78;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    display: block;
+    width: fit-content;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+/* Começo estilo Seção Inicial (Menu + Banner)*/
+#secao-inicial{
+    padding: 32px 0;
+    color: #fff;
+    background: linear-gradient(90deg, #D83482 0%, #EC0A76 100%);
+}
+/* Menu */
+#logo{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+#links-secoes{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+#links-secoes > a{
+    padding: 10px 15px;
+}
+#links-secoes > a:hover{
+    text-decoration: underline;
+}
+.btn_menu{
+    font-size: 16px;
+}
+/* Banner */
+#conteudo-inicial{
+    margin-top: 64px;
+}
+#conteudo-esq{
+    width: 40%;
+}
+#conteudo-esq > h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 58px;
+}
+#conteudo-esq > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    margin: 10px 0 32px;
+}
+#imagem-1{
+    max-width: 569px;
+    width: 45%;
+    min-width: 450px;
+}
+
+/* Começo estilo Seção Artigos (Título + Artigos Principais + Artigos em destaque)*/
+/* Geral da seção */
+#secao-artigos{
+    background-color: #F3F5F7;
+    padding: 64px 0;
+}
+#secao-artigos > h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+    margin-bottom: 32px;
+}
+/* Artigos Principais */
+#artigos-principais{
+    width: 65%;
+}
+#artigos-principais > h3, #artigos-destaque > h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #313131;
+}
+#artigos-principais > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    line-height: 26px;
+    margin: 10px 0 32px;
+}
+#cards{
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    width: 48%;
+    min-width: 310px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+.cabecalho_card{
+    margin-bottom: 20px;
+}
+.cabecalho_card > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #B6B6B6;
+}
+.cabecalho_card > i{
+    font-size: 25px;
+    color: #EA2181;
+}
+.conteudo_card > h4, .card_destaque > h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #EA2181;
+    margin-bottom: 5px;
+}
+.conteudo_card > p, #textos-final > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    line-height: 26px;
+}
+
+/* Artigos em destaque */
+#artigos-destaque{
+    width: 33%;
+}
+#cards-destaque{
+    margin-top: 20px;
+}
+.card_destaque{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+#secao-artigos > div{
+    align-items: flex-start;
+}
+
+/* Hover do coração pra ficar preenchido */
+.cabecalho_card > i:hover::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Começo estilo Seção Final e Rodapé*/
+/* Seção final */
+#secao-final{
+    background-color: #ECEEF0;
+    padding: 64px 0;
+}
+#textos-final{
+    width: 40%;
+}
+#textos-final > h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+    margin-bottom: 20px;
+}
+#imagem-2{
+    max-width: 552px;
+    width: 40%;
+    min-width: 400px;
+}
+.btn_secundario{
+    background-color: #EA2181;
+    color: #fff;
+    margin: 32px auto 0;
+}
+
+/* Rodapé */
+footer{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #EA2181;
+    background-color: #fff;
+}
+
+/* Começando a Responsividade */
+/* 1° Breakpoint - width: 1100px  (h1, botão, cartões e na div textos da seção final)*/
+@media screen and (max-width: 1100px){
+    #conteudo-esq > h1{
+        font-size: 48px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+    .card{
+        width: 100%;
+    }
+    #textos-final{
+        width: 50%;
+    }
+}
+
+/* 2° Breakpoint - width: 930px */
+@media screen and (max-width: 930px) {
+    #conteudo-esq > h1{
+        font-size: 40px;
+    }
+    .btn, .btn_menu, #artigos-principais > p, .conteudo_card > p, #textos-final > p{
+        font-size: 16px;
+    }
+    #secao-artigos > h2, #textos-final > h2{
+        font-size: 25px;
+    }
+    #artigos-principais > h3, #artigos-destaque > h3{
+        font-size: 20px;
+    }
+    .conteudo_card > h4, .card_destaque > h4{
+        font-size: 18px;
+    }
+}
+
+/* 3° Breakpoint - width: 830px */
+@media screen and (max-width: 830px) {
+    /* Banner */
+    #imagem-1{
+        display: none;
+    }
+    #conteudo-esq{
+        width: 70%;
+        text-align: center;
+    }
+    #conteudo-inicial > div{
+        justify-content: center;
+    }
+    #conteudo-esq > .btn{
+        margin: auto;
+    }
+    #conteudo-esq > h1{
+        font-size: 56px;
+    }
+
+    /* Artigos */
+    #secao-artigos > div{
+        flex-direction: column-reverse;
+    }
+    #artigos-destaque{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    #cards-destaque{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card_destaque{
+        width: 48%;
+        min-width: 260px;
+    }
+    #artigos-principais{
+        width: 100%;
+    }
+    .card{
+        min-width: 100%;
+    }
+
+    /* Seção Final */
+    #conteudo-final{
+        flex-direction: column;
+    }
+    #textos-final{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 32px;
+    }
+    #imagem-2{
+        width: 60%;
+        min-width: 200px;
+    }
+}
+
+/* 4° Breakpoint - width: 600px */
+@media screen and (max-width: 600px){
+    #links-secoes{
+        display: none;
+    }
+    #conteudo-esq > p{
+        display: none;
+    }
+    #conteudo-esq > h1{
+        font-size: 38px;
+        margin-bottom: 32px;
+    }
+    #conteudo-esq{
+        width: 100%;
+    }
+    .card_destaque{
+        width: 100%;
+    }
+}
