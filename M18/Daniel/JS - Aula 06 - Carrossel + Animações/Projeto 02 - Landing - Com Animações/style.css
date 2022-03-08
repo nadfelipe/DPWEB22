@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Nunito:wght@600;700;800&display=swap');    
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Embrulho/Wrapper + Flexbox (Coisas reaproveitáveis) */
+.wrapper{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    color: #EA0F78;
+    background-color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    width: fit-content;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+/* Estilo Seção Inicial (Menu + Banner) */
+#secao-inicial{
+    padding: 32px 0;
+    color: #fff;
+    background: linear-gradient(90deg, #D83482 0%, #EC0A76 100%);
+}
+/* Menu */
+#logo{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+#links-secoes{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+}
+#links-secoes > a{
+    padding: 10px 15px;
+}
+#links-secoes > a:hover{
+    text-decoration: underline;
+}
+.btn_menu{
+    font-size: 16px;
+}
+/* Banner */
+#conteudo-inicial{
+    margin-top: 64px;
+}
+#conteudo-esq{
+    width: 40%;
+}
+#conteudo-esq > h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+}
+#conteudo-esq > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    margin: 10px 0 32px;
+}
+#imagem-1{
+    max-width: 569px;
+    width: 45%;
+    min-width: 440px;
+}
+
+/* Estilo Seção Artigos (Título + Artigos Principais + Artigos em destaque) */
+/* Geral da Seção */
+#secao-artigos{
+    background-color: #F3F5F7;
+    padding: 64px 0;
+}
+#secao-artigos > h2, #conteudo-final-textos > h2{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #313131;
+    margin-bottom: 32px;
+}
+
+/* Artigos principais */
+#artigos-principais{
+    width: 65%;
+}
+#artigos-principais > h3, #artigos-destaque > h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #313131;
+}
+#artigos-principais > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    margin: 10px 0 32px;
+}
+#cards{
+    flex-wrap: wrap;
+}
+.card{
+    width: 48%;
+    min-width: 310px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 32px;
+}
+.cabecalho_card{
+    margin-bottom: 20px;
+}
+.cabecalho_card > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    color: #B6B6B6;
+}
+.cabecalho_card > i{
+    color: #EA2181;
+    font-size: 25px;
+}
+.conteudo_card > h4, .card_destaque > h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #EA2181;
+    margin-bottom: 5px;
+}
+.conteudo_card > p, #conteudo-final-textos > p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 18px;
+    color: #B6B6B6;
+    line-height: 25px;
+}
+
+/* Artigos destaque */
+#artigos-destaque{
+    width: 33%;
+}
+#cards-destaque{
+    margin-top: 20px;
+}
+.card_destaque{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+#secao-artigos > div{
+    align-items: flex-start;
+}
+
+/* Hover coração preenchido */
+.cabecalho_card > i:hover::before{
+    font-family: "Font Awesome 6 Free";
+    content: "\f004";
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/*  Estilo Seção Artigos + Rodapé */
+/* Seção Final */
+#secao-final{
+    background-color: #ECEEF0;
+    padding: 64px 0;
+}
+#conteudo-final-textos{
+    width: 45%;
+}
+#conteudo-final-textos > h2{
+    text-align: left;
+}
+.btn_final{
+    background-color: #EA2181;
+    color: #fff;
+    margin: 32px auto 0;
+}
+#imagem-2{
+    max-width: 552px;
+    width: 40%;
+    min-width: 430px;
+}
+/* Rodapé */
+footer{
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #EA2181;
+    background-color: #fff;
+}
+
+
+/* Começo estilos Responsividade */
+/* 1° width - 1100px (h1, botão, cards, p e h2)*/
+@media screen and (max-width: 1100px) {
+    #conteudo-esq > h1{
+        font-size: 48px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+    .card{
+        width: 100%;
+    }
+    #conteudo-final-textos > p{
+        font-size: 16px;
+    }
+    #conteudo-final-textos > h2{
+        font-size: 25px;
+    }
+}
+/* 2° width - 920px (h1, botão, h2, h3, h4 e p)*/
+@media screen and (max-width: 920px){
+    #conteudo-esq > h1{
+        font-size: 40px;
+    }
+    .btn, .btn_menu{
+        font-size: 16px;
+    }
+    #secao-artigos > h2{
+        font-size: 25px;
+    }
+    #artigos-principais > h3, #artigos-destaque > h3{
+        font-size: 20px;
+    }
+    .conteudo_card > p{
+        font-size: 16px;
+    }
+    .conteudo_card > h4, .card_destaque > h4{
+        font-size: 18px;
+    }
+}
+/* 3° width - 820px */
+@media screen and (max-width: 820px){
+    /* Banner */
+    #imagem-1{
+        display: none;
+    }
+    #conteudo-esq{
+        width: 65%;
+        text-align: center;
+    }
+    #conteudo-inicial > div{
+        justify-content: center;
+    }
+    #conteudo-esq > .btn{
+        margin: auto;
+    }
+    #conteudo-esq > h1{
+        font-size: 48px;
+    }
+    
+    /* Artigos */
+    #secao-artigos > div{
+        flex-direction: column-reverse;
+    }
+    #artigos-principais, #artigos-destaque{
+        width: 100%;
+    }
+    #artigos-destaque{
+        margin-bottom: 64px;
+    }
+    .card{
+        min-width: 100%;
+    }
+
+    /* Seção Final */
+    #conteudo-final{
+        flex-direction: column;
+    }
+    #conteudo-final-textos{
+        width: 80%;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    #conteudo-final-textos > h2{
+        text-align: inherit;
+        margin-bottom: 16px;
+    }
+    #imagem-2{
+        width: 60%;
+        min-width: 200px;
+    }
+}
+
+/* 4° width - 600px */
+@media screen and (max-width: 600px){
+    #links-secoes{
+        display: none;
+    }
+    #conteudo-esq > h1{
+        font-size: 38px;
+        margin-bottom: 32px;
+    }
+    #conteudo-esq > p{
+        display: none;
+    }
+    #conteudo-esq{
+        width: 100%;
+    }
+}
