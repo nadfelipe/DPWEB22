@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@500;600&display=swap');
 
-:root{
+:root {
     --white: #FFF;
     --grey-primary: #676767;
     --grey-secondary: #C7C7C7;
@@ -11,7 +11,7 @@
     --purple: #7129CC;
     --pink: #D92BB3;
     --regular: 400;
-    --medium: 500; 
+    --medium: 500;
     --semibold: 600;
     --bold: 700;
 }
@@ -27,12 +27,16 @@ a {
     color: inherit;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     font-family: 'Quicksand', sans-serif;
 }
 
-a, p{
+a, p {
     font-family: 'Montserrat', sans-serif;
+}
+
+footer>p, .logo_header>p {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .wrapper {
@@ -65,4 +69,31 @@ a, p{
 
 .btn:hover p {
     margin-right: 1.2rem;
+}
+
+.menu{
+    padding: 32px 0 0;
+}
+
+.logo_header {
+    color: var(--grey-primary);
+}
+
+.logo_header>h4 {
+    font-size: 1.3em;
+    font-weight: var(--semibold);
+}
+
+.logo_header>p {
+    font-size: 1.1em;
+    font-weight: var(--medium);
+}
+
+.links_header{
+    list-style-type: none;
+}
+
+.links_header>li>a {
+    padding: 0.5em 2em;
+    margin: 1em;
 }

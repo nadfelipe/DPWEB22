@@ -1,28 +1,9 @@
-footer>p, #header404>p {
-    font-family: 'Quicksand', sans-serif;
-}
-
 body {
     height: 100vh;
     background-color: var(--grey-tertiary);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-#header404 {
-    padding: 32px 0 0;
-    color: var(--grey-primary);
-}
-
-#header404>h4 {
-    font-size: 1.3em;
-    font-weight: var(--semibold);
-}
-
-#header404>p {
-    font-size: 1.1em;
-    font-weight: var(--medium);
 }
 
 main {

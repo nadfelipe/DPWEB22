@@ -1,0 +1,38 @@
+#hero {
+    height: calc(100vh - 80px);
+}
+
+#container_hero {
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_hero>h1 { 
+    font-size: 2.8em;
+    font-weight: var(--semibold);
+    color: var(--grey-primary);
+    text-align: center;
+}
+
+#container_hero>h1::after {
+    content: url('../img/cobrinha.svg');
+    zoom: 100%;
+    position: relative;
+    top: -25px;
+}
+
+#container_hero>p { 
+    font-size: 1.5em;
+    font-weight: var(--regular);
+    color: var(--grey-primary);
+    text-align: center;
+    width: 62%;
+    margin-top: -15px;
+}
+
+#container_hero>p>span {
+    font-weight: var(--medium);
+    color: var(--grey-primary);
+}
