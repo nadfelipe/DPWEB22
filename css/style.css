@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@500;600&display=swap');
+
+:root{
+    --white: #FFF;
+    --grey-primary: #676767;
+    --grey-secondary: #C7C7C7;
+    --grey-tertiary: #F9F9F9;
+    --yellow: #FFA216;
+    --blue: #0057DA;
+    --orange: #FF7B1C;
+    --purple: #7129CC;
+    --pink: #D92BB3;
+    --regular: 400;
+    --medium: 500; 
+    --semibold: 600;
+    --bold: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1440px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--grey-primary);
+    border-radius: 5px;
+    justify-content: center;
+    width: fit-content;
+    padding: 12px 10px;
+    color: var(--white);
+    font-size: 1em;
+    font-weight: var(--medium);
+}
+
+.btn p {
+    margin-right: 0.75rem;
+    transition: margin 100ms ease-in-out;
+}
+
+.btn:hover p {
+    margin-right: 1.2rem;
+}
