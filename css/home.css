@@ -45,7 +45,7 @@
     text-align: center;
 }
 
-#container_projetos>h2, #container_conteudo>h2 {
+#container_projetos>h2, #container_conteudo>div>h2 {
     color: var(--grey-primary);
     font-size: 2em;
     font-weight: var(--medium);
@@ -83,7 +83,7 @@
 }
 
 #conteudo {
-    padding: 8rem 0 16rem;
+    padding: 8rem 0;
 }
 
 #container_conteudo {
@@ -94,6 +94,6 @@
 }
 
 #container_conteudo>object {
-    max-width: 1220px;
+    max-width: 1300px;
     width: 100%;
 }
