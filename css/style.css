@@ -52,14 +52,16 @@ footer>p, .logo_header>p {
 }
 
 .btn {
-    background-color: var(--grey-primary);
+    background-color: transparent;
+    transition: all 100ms;
     border-radius: 5px;
     justify-content: center;
     width: fit-content;
     padding: 12px 10px;
-    color: var(--white);
+    color: var(--grey-primary);
     font-size: 1em;
     font-weight: var(--medium);
+    outline: 2px solid var(--grey-primary);
 }
 
 .btn p {
@@ -69,6 +71,11 @@ footer>p, .logo_header>p {
 
 .btn:hover p {
     margin-right: 1.2rem;
+}
+
+.btn:hover {
+    background-color: var(--grey-primary);
+    color: var(--white);
 }
 
 .menu{
@@ -96,4 +103,20 @@ footer>p, .logo_header>p {
 .links_header>li>a {
     padding: 0.5em 2em;
     margin: 1em;
+}
+
+footer {
+    padding: 0 0 32px;
+    text-align: end;
+}
+
+footer>p {
+    font-weight: var(--semibold);
+    color: var(--grey-primary);
+}
+
+@media screen and (max-width: 420px) {
+    footer {
+        text-align: center;
+    }
 }

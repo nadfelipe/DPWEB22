@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-#container_hero>h1 { 
+#container_hero>h1 {
     font-size: 2.8em;
     font-weight: var(--semibold);
     color: var(--grey-primary);
@@ -23,13 +23,13 @@
     top: -25px;
 }
 
-#container_hero>p { 
+#container_hero>p {
     font-size: 1.5em;
     font-weight: var(--regular);
     color: var(--grey-primary);
     text-align: center;
     width: 62%;
-    margin-top: -15px;
+    margin-top: -1rem;
 }
 
 #container_hero>p>span {
@@ -38,22 +38,22 @@
 }
 
 #projetos {
-    padding: 8em 0 16em;
+    padding: 8rem;
 }
 
-#container_projetos{
+#container_projetos {
     text-align: center;
 }
 
-#container_projetos>h2 {
+#container_projetos>h2, #container_conteudo>h2 {
     color: var(--grey-primary);
     font-size: 2em;
     font-weight: var(--medium);
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
 }
 
-.card_projeto{
-    padding: 1.2em 0.6em;
+.card_projeto {
+    padding: 1.2rem 0.6rem;
     flex-direction: column;
     border-radius: 5px;
     width: 33%;
@@ -61,15 +61,15 @@
     outline: 2px solid var(--grey-primary);
 }
 
-.card_projeto-textos{
-    margin-bottom: 2em;
+.card_projeto-textos {
+    margin-bottom: 2rem;
     flex-direction: column;
 }
 
 .card_projeto-textos>h3 {
     font-weight: var(--semibold);
     font-size: 1.3em;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
     width: 95%;
 }
 
@@ -82,15 +82,18 @@
     width: 90%;
 }
 
-.card_projeto-btn {
-    background-color: transparent;
-    outline: 2px solid var(--grey-primary);
-    color: var(--grey-primary);
-    transition: all 700ms;
+#conteudo {
+    padding: 8rem 0 16rem;
 }
 
-.card_projeto-btn:hover {
-    background-color: var(--grey-primary);
-    outline: none;
-    color: var(--white);
+#container_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container_conteudo>object {
+    max-width: 1220px;
+    width: 100%;
 }
