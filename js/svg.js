@@ -3,7 +3,9 @@ const btn = document.querySelector('#btn_conteudo')
 btn.addEventListener("click", function () {
     var itens = ['ux', 'ui', 'html', 'css', 'js']
     var listaCaminhos = document.querySelectorAll(`.caminho`)
+
     var tempoDelay = 1000
+    
     for (let x = 0; x < itens.length; x++) {
         (function (qntItens) {
             setTimeout(function () {

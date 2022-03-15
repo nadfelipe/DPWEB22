@@ -104,9 +104,13 @@ footer>p, .logo_header>p {
     list-style-type: none;
 }
 
-.links_header>li>a {
+.link_header {
     padding: 0.5em 2em;
     margin: 1em;
+}
+
+.link_header:hover{
+    font-weight: var(--medium);
 }
 
 footer {
