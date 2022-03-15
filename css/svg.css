@@ -15,7 +15,7 @@
 }
 
 #titulo_ux:hover, #titulo_ui:hover, #titulo_html:hover, #titulo_css:hover, #titulo_js:hover {
-    cursor: not-allowed;
+    cursor: default;
 }
 
 .ux, .ui, .html, .css, .js {

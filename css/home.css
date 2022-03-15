@@ -2,6 +2,14 @@
     height: calc(100vh - 80px);
 }
 
+#hero::after {
+    content: url('../img/circulo1.svg');
+    zoom: 100%;
+    position: absolute;
+    right: -15%;
+    top: 60%;
+}
+
 #container_hero {
     height: 100%;
     flex-direction: column;
@@ -45,6 +53,11 @@
     text-align: center;
 }
 
+.cards_projetos {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
 #container_projetos>h2, #container_conteudo>h2 {
     color: var(--grey-primary);
     font-size: 2em;
@@ -58,7 +71,9 @@
     border-radius: 5px;
     width: 33%;
     max-width: 466px;
+    /* min-width: 466px; */
     outline: 2px solid var(--grey-primary);
+    /* margin-bottom: 2rem; */
 }
 
 .card_projeto-textos {
@@ -86,6 +101,14 @@
     padding: 8rem 0;
 }
 
+#conteudo::after {
+    content: url('../img/circulo2.svg');
+    zoom: 100%;
+    position: absolute;
+    left: -15%;
+    top: 200%;
+}
+
 #container_conteudo {
     display: flex;
     flex-direction: column;
@@ -98,6 +121,6 @@
     width: 100%;
 }
 
-#cabecalho_conteudo{
+#cabecalho_conteudo {
     flex-direction: column;
 }
