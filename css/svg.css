@@ -1,0 +1,42 @@
+.cinza {
+    fill: var(--grey-secondary);
+}
+
+.cor_hover {
+    fill: var(--grey-primary);
+}
+
+.esconder {
+    display: none;
+}
+
+#caminho_1, #bg-titulo_ux, #bg-titulo_ui, #bg-titulo_html, #bg-titulo_css, #bg-titulo_js {
+    transition: all 300ms;
+}
+
+#titulo_ux:hover, #titulo_ui:hover, #titulo_html:hover, #titulo_css:hover, #titulo_js:hover {
+    cursor: not-allowed;
+}
+
+.ux, .ui, .html, .css, .js {
+    transition: all 200ms;
+}
+
+#btn_conteudo {
+    border: 2px solid var(--grey-primary);
+    outline: none;
+    margin-bottom: 3rem;
+}
+
+#btn_conteudo p {
+    margin: 0.2rem;
+}
+
+#btn_conteudo:hover {
+    cursor: pointer;
+}
+
+#destaque_texto {
+    text-transform: uppercase;
+    font-weight: 700;
+}
