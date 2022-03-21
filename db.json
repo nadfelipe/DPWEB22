@@ -1,0 +1,79 @@
+{
+    "m18": {
+        "title_page": "Projetos desenvolvidos com a turma M18",
+        "description_page": "13 projetos desenvolvidos com o objetivo de ensinar os conteúdos de HTML, CSS e JS.",
+        "breadcrumb" : "M18",
+        "cards": [
+            {
+                "image": "../img/thumbnails/m18/01.png",
+                "title": "Desafio 01 - Correção",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o"
+            },
+            {
+                "image": "../img/thumbnails/m18/02.png",
+                "title": "Desafio 02 - Correção",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+            },
+            {
+                "image": "../img/thumbnails/m18/02.png",
+                "title": "teste",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+            }
+        ]
+    },
+    "t19": {
+        "title_page": "Projetos desenvolvidos com a turma T19",
+        "description_page": "13 projetos desenvolvidos com o objetivo de ensinar os conteúdos de HTML, CSS e JS.",
+        "breadcrumb" : "T19",
+        "cards": [
+            {
+                "image": "../img/thumbnails/t19/01.png",
+                "title": "Desafio 01 - Correção",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o"
+            },
+            {
+                "image": "../img/thumbnails/t19/02.png",
+                "title": "Desafio 02 - Correção",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+            },
+            {
+                "image": "../img/thumbnails/t19/02.png",
+                "title": "Desafio 02 - Correção",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+            }
+        ]
+    },
+    "teste": {
+        "title_page": "Projetos desenvolvidos para testes",
+        "description_page": "2 projetos de teste desenvolvidos com o principal objetivo de testar o carrossel e animações com JS.",
+        "breadcrumb" : "Testes",
+        "cards": [
+            {
+                "image": "../img/thumbnails/testes/02.png",
+                "title": "Glider",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/Testes/Glider/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/Testes/Glider"
+            },
+            {
+                "image": "../img/thumbnails/testes/01.png",
+                "title": "LP - Projeto 02 - Com GSAP e Glider",
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/Testes/LP%20-%20Projeto%2002%20-%20Com%20GSAP%20e%20Glider/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/Testes/LP%20-%20Projeto%2002%20-%20Com%20GSAP%20e%20Glider"
+            }
+        ]
+    }
+}
