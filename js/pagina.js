@@ -1,7 +1,7 @@
 var res = window.location.href.split('?');
 
 if (res[1] === undefined) {
-    window.location.href = '../404.html'
+    window.location.href = '../404.html';
 }
 else {
     fetch('../db.json')
@@ -11,16 +11,16 @@ else {
         .then(jsondata => {
             switch (res[1]) {
                 case 'm18':
-                    montarPagina(jsondata.m18)
+                    montarPagina(jsondata.m18);
                     break;
                 case 't19':
-                    montarPagina(jsondata.t19)
+                    montarPagina(jsondata.t19);
                     break;
                 case 'teste':
-                    montarPagina(jsondata.teste)
+                    montarPagina(jsondata.teste);
                     break;
                 default:
-                    window.location.href = '../404.html'
+                    window.location.href = '../404.html';
                     break;
             }
         });
@@ -42,9 +42,13 @@ function montarPagina(data) {
     parentDiv.append(eleParagrafoDescricao);
 
     for (let i = 0; i < data.cards.length; i++) {
-        addCard(data.cards[i]);
+        if(data.cards.length <= 2){
+            addCard(data.cards[i]);
+            document.querySelectorAll(".card_projeto")[i].classList.add('card_projeto2');
+        }else{
+            addCard(data.cards[i]);
+        }
     }
-
 }
 
 function addCard(card) {

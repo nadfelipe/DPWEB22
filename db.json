@@ -1,55 +1,125 @@
 {
     "m18": {
         "title_page": "Projetos desenvolvidos com a turma M18",
-        "description_page": "13 projetos desenvolvidos com o objetivo de ensinar os conteúdos de HTML, CSS e JS.",
+        "description_page": "13 projetos* desenvolvidos com o objetivo de ensinar os conteúdos de HTML, CSS e JS.",
         "breadcrumb" : "M18",
         "cards": [
             {
-                "image": "../img/thumbnails/m18/01.png",
+                "image": "../img/thumbnails/turmas/01.png",
+                "title": "Projeto 02 - Landing - Com Animações",
+                "description": "Segundo projeto efetuado com a turma para aprender HTML e CSS através de uma Landing Page, mas além do projeto base, aplicamos animações dos elementos utilizando a biblioteca GSAP e o plugin ScrollTrigger.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/JS%20-%20Aula%2006%20-%20Carrossel%20%2B%20Animações/Projeto%2002%20-%20Landing%20-%20Com%20Animações",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/JS%20-%20Aula%2006%20-%20Carrossel%20%2B%20Animações/Projeto%2002%20-%20Landing%20-%20Com%20Animações"
+            },
+            {
+                "image": "../img/thumbnails/turmas/02.png",
+                "title": "Projeto 02 - Landing",
+                "description": "Segundo projeto feito com a turma para aprender HTML e CSS através de uma Landing Page completa e responsiva, aplicando conceitos de Flexbox, Media Queries, Import de ícones e fontes, Pseudo-classes, estrutura de pastas, etc.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Projeto02%20-%20Landing",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Projeto02%20-%20Landing"
+            },
+            {
+                "image": "../img/thumbnails/turmas/03.png",
+                "title": "Desafio 02 - Correção",
+                "description": "Correção do segundo desafio passado para os alunos, que consistia em desenvolver a tela a partir do layout e do esquelo da estrutura que foram disponibilizados, além disso o projeto foi utilizado para ensinar estrutura de pastas e formulário.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+            },
+            {
+                "image": "../img/thumbnails/turmas/04.png",
                 "title": "Desafio 01 - Correção",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
-                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o/",
+                "description": "Correção do primeiro desafio passado para os alunos, que consistia em desenvolver a tela a partir do layout e do esquelo da estrutura que foram disponibilizados, o foco desse projeto estava em eles em grupos conseguirem criar a estrutura básica de HTML e CSS.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o",
                 "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o"
             },
             {
-                "image": "../img/thumbnails/m18/02.png",
-                "title": "Desafio 02 - Correção",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
-                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
-                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+                "image": "../img/thumbnails/turmas/05.png",
+                "title": "Projeto 01 - Linktree",
+                "description": "Primeiro projeto feito com a turma para aprender HTML e CSS através de um primeiro contato prático, desenvolvendo um site parecido com o Linktree, aplicando conceitos de estruturação semântica do HTML, além de introduzir a estilização de sites com CSS.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Projeto01%20-%20Linktree",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Projeto01%20-%20Linktree"
             },
             {
-                "image": "../img/thumbnails/m18/02.png",
-                "title": "teste",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
-                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
-                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+                "image": "../img/thumbnails/turmas/06.png",
+                "title": "Festival de botões",
+                "description": "",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/JS%20-%20Aula%2004%20-%20FestivalBotoes",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/JS%20-%20Aula%2004%20-%20FestivalBotoes"
+            },
+            {
+                "image": "../img/thumbnails/turmas/07.png",
+                "title": "Calculadora de média dos alunos - com validação",
+                "description": "",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/JS%20-%20Aula%2005%20-%20Calculadora%20com%20valida%C3%A7%C3%A3o",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/JS%20-%20Aula%2005%20-%20Calculadora%20com%20valida%C3%A7%C3%A3o"
+            },
+            {
+                "image": "../img/thumbnails/turmas/08.png",
+                "title": "Calculadora com botões e 2 inputs",
+                "description": "",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/JS%20-%20Aula%2003",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/JS%20-%20Aula%2003"
+            },
+            {
+                "image": "../img/thumbnails/turmas/09.png",
+                "title": "Calculadora de média e Calculadora de IMC",
+                "description": "",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/M18/Daniel/JS%20-%20Aula%2002",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/M18/Daniel/JS%20-%20Aula%2002"
+            },
+            {
+                "image": "../img/thumbnails/turmas/10.png",
+                "title": "",
+                "description": "",
+                "link_demo": "",
+                "link_arquivos": ""
+            },
+            {
+                "image": "../img/thumbnails/turmas/11.png",
+                "title": "",
+                "description": "",
+                "link_demo": "",
+                "link_arquivos": ""
+            },
+            {
+                "image": "../img/thumbnails/turmas/12.png",
+                "title": "",
+                "description": "",
+                "link_demo": "",
+                "link_arquivos": ""
+            },
+            {
+                "image": "../img/thumbnails/turmas/13.png",
+                "title": "",
+                "description": "",
+                "link_demo": "",
+                "link_arquivos": ""
             }
         ]
     },
     "t19": {
         "title_page": "Projetos desenvolvidos com a turma T19",
-        "description_page": "13 projetos desenvolvidos com o objetivo de ensinar os conteúdos de HTML, CSS e JS.",
+        "description_page": "13 projetos* desenvolvidos com o objetivo de ensinar os conteúdos de HTML, CSS e JS.",
         "breadcrumb" : "T19",
         "cards": [
             {
-                "image": "../img/thumbnails/t19/01.png",
-                "title": "Desafio 01 - Correção",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
-                "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o/",
-                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/Desafio01%20-%20Corre%C3%A7%C3%A3o"
+                "image": "../img/thumbnails/turmas/01.png",
+                "title": "Projeto 02 - Landing - Com Animações",
+                "description": "Segundo projeto efetuado com a turma para aprender HTML e CSS através de uma Landing Page, mas além do projeto base, aplicamos animações dos elementos utilizando a biblioteca GSAP e o plugin ScrollTrigger.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/JS%20-%20Aula%2006%20-%20Carrossel%20%2B%20Animação/Projeto%2002%20-%20Landing%20-%20Com%20animação",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/JS%20-%20Aula%2006%20-%20Carrossel%20%2B%20Animação/Projeto%2002%20-%20Landing%20-%20Com%20animação"
             },
             {
-                "image": "../img/thumbnails/t19/02.png",
-                "title": "Desafio 02 - Correção",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
-                "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
-                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
+                "image": "../img/thumbnails/turmas/02.png",
+                "title": "Projeto 02 - Landing",
+                "description": "Segundo projeto efetuado com a turma para aprender HTML e CSS através de uma Landing Page completa e responsiva, aplicando conceitos de Flexbox, Media Queries, Import de ícones e fontes, Pseudo-classes, estrutura de pastas, etc.",
+                "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/Projeto02%20-%20Landing",
+                "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/Projeto02%20-%20Landing"
             },
             {
-                "image": "../img/thumbnails/t19/02.png",
+                "image": "../img/thumbnails/turmas/03.png",
                 "title": "Desafio 02 - Correção",
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
+                "description": "Correção do segundo desafio passado para os alunos, que consistia em desenvolver a tela a partir do layout e do esquelo da estrutura que foram disponibilizados, além disso o projeto foi utilizado para ensinar estrutura de pastas e formulário.",
                 "link_demo": "https://nadfelipe.github.io/DPWEB22/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o/",
                 "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/T19/Daniel/Desafio02%20-%20Corre%C3%A7%C3%A3o"
             }
@@ -57,18 +127,18 @@
     },
     "teste": {
         "title_page": "Projetos desenvolvidos para testes",
-        "description_page": "2 projetos de teste desenvolvidos com o principal objetivo de testar o carrossel e animações com JS.",
+        "description_page": "2 projetos* de teste desenvolvidos com o principal objetivo de testar o carrossel e animações com JS.",
         "breadcrumb" : "Testes",
         "cards": [
             {
-                "image": "../img/thumbnails/testes/02.png",
+                "image": "../img/thumbnails/testes/01.png",
                 "title": "Glider",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
                 "link_demo": "https://nadfelipe.github.io/DPWEB22/Testes/Glider/",
                 "link_arquivos": "https://github.com/nadfelipe/DPWEB22/tree/main/Testes/Glider"
             },
             {
-                "image": "../img/thumbnails/testes/01.png",
+                "image": "../img/thumbnails/testes/02.png",
                 "title": "LP - Projeto 02 - Com GSAP e Glider",
                 "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nulla sunt, hic quisquam accusamus suscipit quia distinctio adipisci iusto maxime asperiores doloremque nobis tenetur laudantium vitae itaque odio repudiandae reprehenderit.",
                 "link_demo": "https://nadfelipe.github.io/DPWEB22/Testes/LP%20-%20Projeto%2002%20-%20Com%20GSAP%20e%20Glider/",
