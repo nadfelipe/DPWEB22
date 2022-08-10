@@ -8,7 +8,9 @@
     <title>DPWEB2022</title>
 
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/home.css">  
+    <link rel="stylesheet" href="./css/home-responsividade.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
     <script src="https://kit.fontawesome.com/74f5d82ab4.js" crossorigin="anonymous"></script>
 </head>
 
@@ -25,6 +27,15 @@
                     <li><a class="link_header" href="./pages/projetos.html?t19">T19</a></li>
                     <li><a class="link_header" href="./pages/projetos.html?teste">Testes</a></li>
                 </ol>
+                <ol class="links_header-sm flex">
+                    <li><a onclick="toogleMenu()" class="link_header-sm"><i class="fas fa-trash"></i></a></li>
+                    <li><a class="link_header-sm link_ativo" href="./pages/projetos.html?m18">M18</a></li>
+                    <li><a class="link_header-sm" href="./pages/projetos.html?t19">T19</a></li>
+                    <li><a class="link_header-sm" href="./pages/projetos.html?teste">Testes</a></li>
+                </ol>
+                <a class="menu_icon" onclick="toogleMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>
         </div>
     </header>
@@ -77,7 +88,7 @@
     <section id="conteudo">
         <div id="container_conteudo" class="wrapper">
             <h2>Conteúdo do curso ✨</h2>
-            <object data="./img/conteudo-curso.svg"></object>
+            <object data="./img/conteudo-curso.svg" style="z-index: 1;"></object>
         </div>
     </section>
     <footer class="wrapper">

@@ -8,6 +8,7 @@
     position: absolute;
     right: -15%;
     top: 60%;
+    z-index: -100;
 }
 
 #container_hero {
@@ -15,6 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 #container_hero>h1 {
@@ -46,7 +48,7 @@
 }
 
 #projetos {
-    padding: 8rem;
+    padding-bottom: 8rem;
 }
 
 #container_projetos {
@@ -55,7 +57,6 @@
 
 .cards_projetos {
     flex-wrap: wrap;
-    /* justify-content: center; */
 }
 
 #container_projetos>h2, #container_conteudo>h2 {
@@ -70,10 +71,8 @@
     flex-direction: column;
     border-radius: 5px;
     width: 33%;
-    max-width: 466px;
-    /* min-width: 466px; */
+    max-width: 465px;
     outline: 2px solid var(--grey-primary);
-    /* margin-bottom: 2rem; */
 }
 
 .card_projeto-textos {
@@ -107,6 +106,7 @@
     position: absolute;
     left: -15%;
     top: 200%;
+    z-index: -100;
 }
 
 #container_conteudo {

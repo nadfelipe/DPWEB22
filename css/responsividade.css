@@ -1,0 +1,17 @@
+@media screen and (max-width: 420px) {
+    footer {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 750px) {
+    .links_header{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .links_header-sm{
+        
+        display: flex;
+    }
+}
