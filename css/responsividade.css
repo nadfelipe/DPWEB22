@@ -7,11 +7,12 @@
     .links_header{
         display: none;
     }
-    .menu_icon{
+    .link_menu-icon{
         display: block;
     }
-    .links_header-sm{
-        
-        display: flex;
+}
+@media screen and (min-width: 750px) {
+    .menu-ativo{
+        display: none;
     }
 }
