@@ -3,16 +3,19 @@
         text-align: center;
     }
 }
+
 @media screen and (max-width: 750px) {
-    .links_header{
+    .links_header {
         display: none;
     }
-    .link_menu-icon{
+
+    .link_menu-icon {
         display: block;
     }
 }
+
 @media screen and (min-width: 750px) {
-    .menu-ativo{
+    .menu-ativo {
         display: none;
     }
 }

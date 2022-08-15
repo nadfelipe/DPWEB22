@@ -38,7 +38,8 @@
     font-weight: var(--regular);
     color: var(--grey-primary);
     text-align: center;
-    width: 62%;
+    width: 100%;
+    max-width: 750px;
     margin-top: -1rem;
 }
 
