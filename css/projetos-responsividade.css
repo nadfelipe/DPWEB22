@@ -1,0 +1,10 @@
+@media screen and (max-width: 520px) {
+    .header_projetos {
+        width: auto;
+    }
+
+    .card_projeto {
+        min-width: auto;
+    }
+
+}
